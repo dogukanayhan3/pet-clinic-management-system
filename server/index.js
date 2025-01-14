@@ -14,9 +14,9 @@ app.use(bodyParser.json());
 // MySQL Connection
 const db = mysql.createConnection({
     host: 'localhost',
-    user: 'dogukan',
-    password: '12345',
-    database: 'vetdb',
+    user: '',
+    password: '',
+    database: '',
 });
 
 
